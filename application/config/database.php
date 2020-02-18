@@ -56,7 +56,7 @@ if(($_SERVER['HTTP_HOST']==('naukari-hub.com')) || $_SERVER['HTTP_HOST']==('www.
 }elseif($_SERVER['HTTP_HOST']==('localhost' || '192.168.0.13' || '192.168.0.33' || '192.168.0.41' || '192.168.0.28' || '192.168.0.143' || '192.168.0.14')){
 	$db['default']['hostname'] = '18.223.155.214';
 	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'arvind123`';
+	$db['default']['password'] = 'root';
 	$db['default']['database'] = 'simpleway';
 }
 
