@@ -72,7 +72,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-pr($db); exit;
+//pr($db); exit;
 
 
 /* End of file database.php */
