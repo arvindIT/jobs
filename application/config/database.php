@@ -56,7 +56,7 @@ if(($_SERVER['HTTP_HOST']==('naukari-hub.com')) || $_SERVER['HTTP_HOST']==('www.
 }elseif($_SERVER['HTTP_HOST']==('localhost' || '192.168.0.13' || '192.168.0.33' || '192.168.0.41' || '192.168.0.28' || '192.168.0.143' || '192.168.0.14')){
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'Arvind@123';
+	$db['default']['password'] = '';
 	$db['default']['database'] = 'simpleway';
 }
 
@@ -72,7 +72,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-//pr($db); exit;
+pr($db); exit;
 
 
 /* End of file database.php */
